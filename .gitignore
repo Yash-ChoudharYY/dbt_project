@@ -1,0 +1,21 @@
+# dbt generated folders
+target/
+dbt_modules/
+dbt_packages/
+logs/
+
+# Sensitive files
+profiles/private_keys/
+
+# Node / package lock
+dbt/package-lock.yml
+
+# OS + Local env
+.DS_Store
+.idea/
+venv/
+.env
+
+# Shell + Python history
+.bash_history
+.python_history
